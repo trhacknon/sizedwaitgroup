@@ -1,6 +1,6 @@
 # SizedWaitGroup
 
-[![GoDoc](https://godoc.org/github.com/remeh/sizedwaitgroup?status.svg)](https://godoc.org/github.com/remeh/sizedwaitgroup)
+[![GoDoc](https://godoc.org/github.com/trhacknon/sizedwaitgroup?status.svg)](https://godoc.org/github.com/trhacknon/sizedwaitgroup)
 
 `SizedWaitGroup` has the same role and API as `sync.WaitGroup` but it adds a limit of the amount of goroutines started concurrently.
 
@@ -16,7 +16,7 @@ import (
         "math/rand"
         "time"
 
-        "github.com/remeh/sizedwaitgroup"
+        "github.com/trhacknon/sizedwaitgroup"
 )
 
 func main() {
@@ -51,4 +51,4 @@ MIT
 
 # Copyright
 
-Rémy Mathieu © 2016
+Trhacknon © 2022
